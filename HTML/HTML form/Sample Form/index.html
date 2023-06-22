@@ -6,7 +6,7 @@
     <title>User Registration form</title>
 </head>
 <body>
-    <form method="get">
+    <form method="post" target="_blank" action="signup">
         <fieldset>
             <legend>User Registration !!</legend>
             <label for="username">Enter your username: </label>
@@ -20,13 +20,13 @@
             <br>
             Select gander: <br>
             <label for="male">Male</label>
-            <input type="radio" id="male" name="usergender">
+            <input type="radio" id="male" name="usergender" value="male">
             <br>
             <label for="female">Female</label>
-            <input type="radio" name="usergender" id="female">
+            <input type="radio" name="usergender" id="female" value="female">
             <br>
             <label for="transgender">Transgender</label>
-            <input type="radio" name="usergender" id="transgender">
+            <input type="radio" name="usergender" id="transgender" value="transgender">
             <br>
             <input type="submit" value="Submit Form">
         </fieldset>
